@@ -1,4 +1,5 @@
 class BotController < ActionController::Base
+include BotControllerHelper
 
   def facebook
     query = params[:result]
