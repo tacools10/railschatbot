@@ -1,3 +1,4 @@
+
 module BotControllerHelper
   def build_weather_text(weather)
     temperature = weather['main']['temp']
